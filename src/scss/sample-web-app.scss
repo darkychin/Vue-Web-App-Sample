@@ -1,0 +1,22 @@
+// Custom Bootstrap variables that your web app uses
+@import "bootstrap-variables";
+
+// Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+/** Note:
+"~" or tilde is shorthand for "./node_modules/" 
+Reference: https://stackoverflow.com/a/49523565/7939633
+*/
+
+// Assests
+@import "font";
+
+// Base HTML stylings
+@import "html";
+
+// Page Components
+@import "components";
+
+// Views, also known as Pages
+@import "views";

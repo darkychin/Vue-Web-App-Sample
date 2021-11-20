@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: "MPLUS2";
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
