@@ -1,0 +1,12 @@
+// To use this vs code settings, rename "sameple.vscode" to ".vscode"
+
+// This is my preferred vs code settings. Feel free to edit as you pleased.
+{
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "eslint.validate": ["vue", "html", "javascript"],
+  "vetur.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
