@@ -1,0 +1,9 @@
+// Reference on SASS coding
+// https://sass-lang.com/guide
+.landing {
+  text-align: center;
+
+  &-description {
+    margin: 40px 0;
+  }
+}

@@ -1,18 +1,28 @@
 <template>
-  <div>
-    <!-- <the-navbar /> -->
-    <div>
+  <div class="layout">
+    <header>
+      <the-navbar />
+    </header>
+    <div class="layout__body">
       <router-view />
     </div>
-    <!-- <the-footer /> -->
+    <footer>
+      <the-footer />
+    </footer>
   </div>
 </template>
 
 <script>
 // Components
-// import TheNavbar from
-// import TheFooter from
+import TheNavbar from '@/components/TheNavbar.vue';
+import TheFooter from '@/components/TheFooter.vue';
+
 export default {
   name: 'Layout',
+
+  components: {
+    TheNavbar,
+    TheFooter,
+  },
 };
 </script>
