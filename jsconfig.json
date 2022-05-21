@@ -1,0 +1,12 @@
+// reference: https://github.com/vuejs/vetur/issues/890#issuecomment-768359136
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
